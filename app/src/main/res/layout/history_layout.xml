@@ -1,0 +1,3808 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/myBar"/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="A"
+                android:gravity="center"
+                android:textSize="32dp"
+                android:textStyle="bold"
+                />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+            <ImageView
+                android:layout_marginLeft="2dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/a1"
+                />
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text=""
+                android:id="@+id/labelsA1"
+                />
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:text=""
+                android:id="@+id/durationA1" />
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:text=""
+                android:id="@+id/timeA1"
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/a2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsA2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationA2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeA2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/a3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsA3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationA3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeA3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="B"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/b1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsB1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationB1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeB1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/b2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsB2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationB2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeB2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/b3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsB3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationB3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeB3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="C"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/c1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsC1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationC1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeC1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/c2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsC2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationC2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeC2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/c3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsC3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationC3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeC3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:text="D"
+                    android:textSize="32dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/d1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsD1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationD1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeD1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/d2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsD2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationD2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeD2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/d3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsD3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationD3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeD3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="E"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/e1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsE1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationE1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeE1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/e2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsE2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationE2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeE2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/e3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsE3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationE3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeE3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="F"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/f1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsF1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationF1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeF1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/f2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsF2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationF2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeF2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/f3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsF3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationF3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeF3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="G"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/g1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsG1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationG1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeG1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/g2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsG2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationG2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeG2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/g3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsG3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationG3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeG3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="H"
+                android:gravity="center"
+                android:textSize="32dp"
+                android:textStyle="bold"
+                />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/h1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsH1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationH1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeH1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/h2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsH2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationH2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeH2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/h3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsH3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationH3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeH3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="I"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/i1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsI1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationI1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeI1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/i2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsI2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationI2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeI2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/i3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/labelsI3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationI3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeI3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="J"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/j1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsJ1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationJ1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeJ1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/j2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsJ2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationJ2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeJ2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/j3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsJ3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationJ3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeJ3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="K"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/k1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsK1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationK1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeK1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/k2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsK2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationK2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeK2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/k3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsK3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationK3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeK3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="L"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/l1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsL1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationL1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeL1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/l2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/labelsL2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/durationL2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeL2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/l3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsL3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationL3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeL3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="M"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/m1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsM1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationM1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeM1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/m2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsM2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationM2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeM2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/m3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsM3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationM3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeM3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="N"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/n1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsN1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationN1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeN1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/n2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsN2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationN2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeN2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/n3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsN3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationN3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeN3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="O"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/o1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsO1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationO1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeO1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/o2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsO2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationO2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeO2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/o3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsO3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationO3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeO3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="P"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/p1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsP1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationP1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeP1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/p2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsP2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationP2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeP2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/p3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsP3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationP3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeP3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Q"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/q1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsQ1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationQ1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeQ1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/q2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsQ2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationQ2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeQ2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/q3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsQ3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationQ3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeQ3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="R"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/r1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsR1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationR1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeR1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/r2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsR2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationR2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeR2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/r3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsR3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationR3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeR3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="S"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/s1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsS1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationS1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeS1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/s2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsS2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationS2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeS2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/s3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsS3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationS3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeS3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="T"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/t1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsT1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationT1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeT1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/t2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsT2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationT2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeT2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/t3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsT3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationT3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeT3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="U"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/u1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsU1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationU1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeU1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/u2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsU2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationU2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeU2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/u3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsU3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationU3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeU3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="V"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/v1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsV1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationV1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeV1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/v2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsV2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationV2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeV2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/v3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsV3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationV3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeV3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="W"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/w1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsW1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationW1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeW1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/w2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsW2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationW2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeW2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/w3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsW3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationW3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeW3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="X"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/x1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsX1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationX1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeX1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/x2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsX2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationX2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeX2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/x3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsX3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationX3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeX3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Y"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/y1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsY1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationY1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeY1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/y2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsY2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationY2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeY2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/y3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsY3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationY3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeY3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:background="#7BAFD4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Z"
+                    android:gravity="center"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="labels: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="used time: "
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="taken time: "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/z1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsZ1"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationZ1" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeZ1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/z2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsZ2"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationZ2" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeZ2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/z3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/labelsZ3"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/durationZ3" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:id="@+id/timeZ3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
