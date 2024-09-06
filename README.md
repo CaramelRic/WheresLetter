@@ -6,5 +6,5 @@
 
 ## Demo
 - This is a demo on an Andoid virtual device. For full functionality demonstration please connect Android Studio to a physical machine.
-https://github.com/user-attachments/assets/d3f31c37-72c0-45eb-a4e6-0f6159e94e20
+<video src="https://github.com/user-attachments/assets/d3f31c37-72c0-45eb-a4e6-0f6159e94e20"></video>
 
